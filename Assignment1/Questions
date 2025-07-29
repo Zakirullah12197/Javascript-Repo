@@ -1,0 +1,58 @@
+
+Assignment 1: JavaScript Basics & Variables — designed to reinforce core JS fundamentals like variables, types, and simple operations.
+
+📘 JavaScript Assignment 1: Variables, Data Types, and Basics
+🔰 Objective: Learn how to declare variables, use different data types, understand const and let, and work with basic console output.
+
+🔹 Q1. Declare Personal Info Variables
+  Create the following variables with suitable data types:
+  
+  Full name (e.g., "Muhammad Zakirullah")
+  
+  Age (e.g., 21)
+  
+  Whether you're a student (e.g., true)
+  
+  Country name (e.g., "Pakistan")
+  
+  College name (e.g., "GPGC Nowshera")
+
+🔹 Q2. Print Data Types
+Use typeof to print the data type of each variable you declared above.
+
+🔹 Q3. Try Reassigning a const Variable
+Create a variable with const, then try to change its value. Wrap the code in try...catch to handle and print the error.
+
+🔹 Q4. Create an Undefined Variable
+Declare a variable (e.g., futureGoal) without assigning any value. Print its value and type.
+
+🔹 Q5. Use Template Strings
+Print a sentence like:
+
+"Hi, I am Muhammad Zakirullah, 21 years old, from Pakistan."
+Use template literals (backticks and ${}).
+
+🔹 Q6. Swap Two Variables
+Swap the values of two variables a = 10 and b = 20 using a third variable, and print before and after values.
+
+🔹 Q7. Declare All 7 Primitive Data Types
+Create one variable for each of the following types:
+
+String
+
+Number
+
+Boolean
+
+Undefined
+
+Null
+
+Symbol
+
+BigInt
+
+Print their values and types using console.log.
+
+🔹 Q8. Use let and Try Redeclaration
+Declare a variable using let, then try to redeclare it in the same scope. Observe and explain the behavior (you may get an error — understand why).
