@@ -1,4 +1,5 @@
-////Note:Uncomment the required block of code for executing to achieve expected results
+////Note : Uncomment the required block of code for executing to achieve expected results
+
 // // 🔹 Q1. Declare Personal Info Variables
 // // Create 5 variables:
 // const fullName = "Muhammad Zakirullah"
