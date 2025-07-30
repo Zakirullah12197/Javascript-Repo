@@ -1,0 +1,101 @@
+//// JavaScript Assignment: Strings
+//// Instructions: Each section is labeled clearly. Read comments and observe expected outputs.
+
+// 🔹 Q1. Declare and Print Strings
+let fullName = "Muhammad Zakirullah";
+console.log(fullName); // ➤ Muhammad Zakirullah
+
+let favouriteLanguage = "C++";
+console.log(favouriteLanguage); // ➤ C++
+
+let quote = "Every Monkey can code but a clean and simple code is not the job of every programmer";
+console.log(quote); // ➤ The quote
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q2. String Indexing
+console.log(`First character: ${fullName[0]}`); // ➤ M
+console.log(`Last character: ${fullName[fullName.length - 1]}`); // ➤ h
+console.log(`Out-of-range: ${fullName[50]}`); // ➤ undefined
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q3. String Length and Casing
+console.log(quote.toUpperCase()); // ➤ UPPERCASE
+console.log(quote.toLowerCase()); // ➤ lowercase
+console.log(`Length of quote: ${quote.length}`); // ➤ Number of characters
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q4. Whitespace Trimming
+let messy = "   Learn JavaScript    ";
+console.log(`Original: '${messy}'`);
+console.log(`Original length: ${messy.length}`);
+
+let messyTrimmed = messy.trim();
+console.log(`Trimmed: '${messyTrimmed}'`);
+console.log(`Trimmed length: ${messyTrimmed.length}`);
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q5. Slice and Substring
+let word = "JavaScript";
+console.log(word.substring(0, 4)); // ➤ Java
+console.log(word.substring(4)); // ➤ Script
+console.log(word.slice(-6)); // ➤ Script
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q6. Replace and Includes
+let line = "JavaScript is awesome. JavaScript is powerful.";
+
+// Replace only the first occurrence
+line = line.replace("JavaScript", "JS");
+console.log(line);
+
+// Check if "awesome" is included
+console.log(`Includes 'awesome'? ${line.includes("awesome")}`); // ➤ true
+
+// Check if "Python" is included
+console.log(`Includes 'Python'? ${line.includes("Python")}`); // ➤ false
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q7. Compare Strings Ignoring Case
+let a = "HELLO";
+let b = "hello";
+
+console.log("a == b:", a == b); // ➤ false (case-sensitive)
+
+a = a.toLowerCase();
+b = b.toLowerCase();
+console.log("a === b (lowercase):", a === b); // ➤ true
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q8. Manual String Reverse (No loops/functions)
+let name = "abcdefgh";
+console.log(name[7] + name[6] + name[5] + name[4] + name[3] + name[2] + name[1] + name[0]); // ➤ hgfedcba
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q9. Count Leading/Trailing Spaces
+let text = "   Code with discipline   ";
+let trimmed = text.trim();
+let trimmedStart = text.trimStart();
+let trimmedEnd = text.trimEnd();
+
+console.log("Total spaces removed:", text.length - trimmed.length);
+console.log("Leading spaces:", text.length - trimmedStart.length);
+console.log("Trailing spaces:", text.length - trimmedEnd.length);
+
+console.log("--------------------------------------------------");
+
+// 🔹 Q10. Detect Word Without .includes()
+let sentence = "JavaScript is the language of the web.";
+
+if (sentence.indexOf("language") !== -1) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
