@@ -1,0 +1,42 @@
+🔹 Q1. Declare All 7 Primitive Data Types
+Declare and log variables for each primitive type in JavaScript:
+
+String
+
+Number
+
+Boolean
+
+Undefined
+
+Null
+
+Symbol
+
+BigInt
+
+For each:
+
+Print the value
+
+Print its type using typeof
+
+🔹 Q2. Type Conversion Practice
+Pick the following values:
+
+javascript
+Copy
+Edit
+"123", true, false, null, undefined, NaN, "abc"
+For each:
+
+Log the original value
+
+Log its type
+
+Convert it to Number, String, and Boolean
+
+Print results using only variables and console.log() (no functions, objects, or arrays)
+
+Use console.log("------------------") to separate sections.
+
