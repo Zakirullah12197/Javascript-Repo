@@ -1,0 +1,111 @@
+📘 JavaScript Assignment: Strings
+✅ Q1. Declare and Print Strings
+Create the following string variables:
+
+Your full name
+
+Your favorite programming language
+
+A quote you like
+
+Print each using console.log().
+
+✅ Q2. String Indexing
+Using your full name:
+
+Print the first character.
+
+Print the last character using .length - 1.
+
+Try to access a character beyond its length.
+
+✅ Q3. String Length and Casing
+Using the quote you declared:
+
+Print the quote in uppercase.
+
+Print the quote in lowercase.
+
+Print the length of the quote.
+
+✅ Q4. Whitespace Trimming
+Declare:
+
+js
+Copy
+Edit
+let messy = "   Learn JavaScript    ";
+Print the original string and its length.
+
+Trim it using .trim() and print the trimmed string and new length.
+
+✅ Q5. Slice and Substring
+Given:
+
+js
+Copy
+Edit
+let word = "JavaScript";
+Extract "Java" using .substring().
+
+Extract "Script" using .substring().
+
+Extract "Script" using .slice() with a negative index.
+
+✅ Q6. Replace and Includes
+Given:
+
+js
+Copy
+Edit
+let line = "JavaScript is awesome. JavaScript is powerful.";
+Replace only the first "JavaScript" with "JS".
+
+Check if "awesome" is included using .includes().
+
+Check if "Python" is included.
+
+🔶 Q7. Compare Strings Ignoring Case
+Given:
+
+js
+Copy
+Edit
+let a = "HELLO";
+let b = "hello";
+Explain why "HELLO" == "hello" returns false.
+
+Convert both strings to lowercase and compare using ===.
+
+🔶 Q8. Manual String Reverse (No loops/functions)
+Given:
+
+js
+Copy
+Edit
+let name = "abcdefgh";
+Reverse the string manually using indexing and + only.
+
+Do not use .reverse() or loops.
+
+🔶 Q9. Count Leading/Trailing Spaces
+Given:
+
+js
+Copy
+Edit
+let text = "   Code with discipline   ";
+Count how many spaces are at the start, end, and total.
+
+Use .trim(), .trimStart(), .trimEnd(), and length.
+
+🔴 Q10. Detect Word Without .includes()
+Given:
+
+js
+Copy
+Edit
+let sentence = "JavaScript is the language of the web.";
+Check if the word "language" exists in the sentence.
+
+Use .indexOf() and if-else to print "Found" or "Not Found".
