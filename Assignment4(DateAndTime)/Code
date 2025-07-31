@@ -1,0 +1,73 @@
+// ✅ Simple Level
+
+// 1. Get Current Date and Time
+let CurrentDate = new Date();
+console.log(`Current Date & Time : ${CurrentDate.toLocaleString()}`);
+console.log(`Current Date : ${CurrentDate.toLocaleDateString()}`);
+console.log(`Current Time : ${CurrentDate.toLocaleTimeString()}`);
+
+// 2. Extract Components
+console.log(`Year : ${CurrentDate.getFullYear()}`);
+console.log(`Month : ${CurrentDate.getMonth() + 1}`);
+console.log(`Date : ${CurrentDate.getDate()}`);
+console.log(`Time : ${CurrentDate.toLocaleTimeString()}`);
+
+// 3. Day of the Week
+console.log(`Day : ${CurrentDate.toLocaleString("default", { weekday: "long" })}`);
+
+// 4. Create a Custom Date
+let newDate = new Date(2025, 0, 31);
+console.log(`New Date : ${newDate.toLocaleDateString()}`);
+
+let birthday = new Date(2004, 5, 17); // June 17, 2004
+console.log(`Birthday : ${birthday.toLocaleDateString()}`);
+
+// 5. Convert to String Formats
+console.log(`Date (toDateString): ${newDate.toDateString()}`);
+console.log(`Time (toTimeString): ${newDate.toTimeString()}`);
+console.log(`ISO Format: ${newDate.toISOString()}`);
+
+// ⚙️ Medium Level
+
+// 6. Calculate Age
+let ageMS = Date.now() - birthday.getTime();
+let ageYears = Math.floor(ageMS / 1000 / 60 / 60 / 24 / 365.25);
+console.log(`Age : ${ageYears} years`);
+
+// 7. Days Left in the Year
+let endOfYear = new Date(CurrentDate.getFullYear(), 11, 31);
+let daysLeft = Math.ceil((endOfYear - Date.now()) / 1000 / 60 / 60 / 24);
+console.log(`Days Left in the Year : ${daysLeft} days`);
+
+// 8. Compare Two Dates
+let randomDate1 = new Date(2022, 1, 1);
+let randomDate2 = new Date(2021, 1, 1);
+
+if (randomDate1 > randomDate2) {
+    console.log("📅 Date Two is earlier");
+} else if (randomDate1 < randomDate2) {
+    console.log("📅 Date One is earlier");
+} else {
+    console.log("📅 Both dates are equal");
+}
+
+// 🔶 Difficult Level
+
+// 9. Countdown Timer
+let futureDate = new Date(2025, 11, 31); // December 31, 2025
+let secondsLeft = (futureDate - Date.now()) / 1000;
+
+let days = Math.floor(secondsLeft / (60 * 60 * 24));
+let hours = Math.floor((secondsLeft % (60 * 60 * 24)) / (60 * 60));
+let minutes = Math.floor((secondsLeft % (60 * 60)) / 60);
+let seconds = Math.floor(secondsLeft % 60);
+
+console.log(`🕒 Countdown to 2025-12-31:`);
+console.log(`Days: ${days}, Hours: ${hours}, Minutes: ${minutes}, Seconds: ${seconds}`);
+
+// 10. Format Custom Date (dd-mm-yyyy)
+let randomDate5 = new Date(2002, 10, 8); // November 8, 2002
+let day = randomDate5.getDate().toString().padStart(2, "0");
+let month = (randomDate5.getMonth() + 1).toString().padStart(2, "0");
+let year = randomDate5.getFullYear();
+console.log(`Date (dd-mm-yyyy) : ${day}-${month}-${year}`);
