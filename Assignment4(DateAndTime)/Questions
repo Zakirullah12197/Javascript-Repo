@@ -1,0 +1,83 @@
+Here are the **JavaScript Assignment Questions – `05-Date-and-Time`**, organized into Simple, Medium, and Difficult levels — matching your current code exactly:
+
+---
+
+## 📘 JavaScript Assignment: `05-Date-and-Time`
+
+### ✅ Simple Level
+
+1. **Get Current Date and Time**
+
+   * Create a `Date` object.
+   * Print:
+
+     * Full date and time → `toLocaleString()`
+     * Date only → `toLocaleDateString()`
+     * Time only → `toLocaleTimeString()`
+
+2. **Extract Components**
+
+   * From the current date, extract and print:
+
+     * Year → `getFullYear()`
+     * Month (1–12) → `getMonth() + 1`
+     * Date → `getDate()`
+     * Hours, Minutes, Seconds → `toLocaleTimeString()`
+
+3. **Day of the Week**
+
+   * Use `getDay()` and convert the result to a weekday name (e.g., Sunday, Monday) using `toLocaleString()`.
+
+4. **Create a Custom Date**
+
+   * Create and print:
+
+     * A specific date like `new Date(2025, 0, 31)`
+     * Your birthday date
+
+5. **Convert to String Formats**
+
+   * Convert any date using:
+
+     * `toDateString()`
+     * `toTimeString()`
+     * `toISOString()`
+
+---
+
+### ⚙️ Medium Level
+
+6. **Calculate Age**
+
+   * Subtract your birthday from `Date.now()` to get your age in years (use milliseconds to years conversion).
+
+7. **Days Left in the Year**
+
+   * Calculate how many days remain until December 31st of the current year.
+
+8. **Compare Two Dates**
+
+   * Create two random dates and print which one is earlier using comparison operators or `.getTime()`.
+
+---
+
+### 🔶 Difficult Level
+
+9. **Countdown Timer**
+
+   * Input a future date (like `2025-12-31`).
+   * Calculate and print how many:
+
+     * Days
+     * Hours
+     * Minutes
+     * Seconds
+     * are left from the current time.
+
+10. **Format Custom Date (dd-mm-yyyy)**
+
+* Take a `Date` object and format it manually as `dd-mm-yyyy`.
+
+---
+
+Would you like me to generate a **simple README.md** file for this assignment too?
