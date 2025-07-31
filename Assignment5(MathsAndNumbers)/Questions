@@ -1,0 +1,94 @@
+## 📘 JavaScript Assignment `05-Numbers-Math-Random`
+
+### ✅ **Simple Level**
+
+1. **Print Type of a Decimal**
+
+   * Declare a decimal number (e.g., `let decimal = 3.14`)
+   * Print its value and data type using `typeof`.
+
+2. **Convert String to Number & Check Type**
+
+   * Convert `"99.99"` and `"abc"` to numbers using `Number()`
+   * Print the results and their types.
+
+3. **Round a Number**
+
+   * Declare `let value = 5.7`
+   * Print results using `Math.round()`, `Math.floor()`, and `Math.ceil()`.
+
+4. **Check If a Number Is Even or Odd**
+
+   * Declare a number
+   * Use `%` and `if-else` to print whether it's even or odd.
+
+5. **Fix Decimal Places**
+
+   * Declare `let price = 399.9999`
+   * Use `.toFixed(2)` to display only 2 decimal places.
+
+---
+
+### ⚙️ **Medium Level**
+
+6. **Generate Random Numbers in Ranges**
+   Use `Math.random()` and `Math.floor()` to generate:
+
+   * A number between **1 and 10**
+   * A number between **50 and 100**
+   * A number between **-20 and 20**
+
+7. **Dice Simulator**
+
+   * Simulate rolling a dice (values 1 to 6)
+   * Repeat the roll 3 times and print the result each time.
+
+8. **Compare Two Numbers**
+
+   * Declare two values: one number and one string (e.g., `10` and `"10"`)
+   * Compare using `==`, `===`, `>`, `<`, `>=`, `<=`
+   * Explain difference between `==` and `===`.
+
+9. **Use Math Methods**
+
+   * Use the following methods and print results:
+
+     * `Math.round(4.6)`
+     * `Math.floor(4.9)`
+     * `Math.ceil(4.2)`
+     * `Math.abs(-45)`
+
+10. **Find Maximum and Minimum**
+
+* Declare 5 numbers
+* Find max and min using `Math.max()` and `Math.min()`.
+
+---
+
+### 🔶 **Difficult Level**
+
+11. **Simple Calculator**
+
+* Declare two numbers (e.g., `num1 = 15`, `num2 = 4`)
+* Perform and print results for: `+`, `-`, `*`, `/`, `%`, and `**`.
+
+12. **Celsius to Fahrenheit Converter**
+
+* Take a Celsius temperature
+* Convert to Fahrenheit using `F = C × 1.8 + 32`
+
+13. **Area of Circle Calculator**
+
+* Declare a radius
+* Use formula: `A = π × r²`
+* Use `Math.PI` and `Math.pow()` to calculate.
+
+14. **Check for Prime (Without Loops)**
+
+* Check if a number is prime using only conditional checks
+* Example: try values like 2, 3, 5, 7, 11, 13
+
+15. **Round Random Number to Nearest 10**
+
+* Generate a random number between 1–100
+* Round it to the nearest 10 using `Math.round()`
