@@ -1,0 +1,67 @@
+# 📝 JavaScript Array Assignment Questions
+
+---
+
+## ✅ Simple Level
+
+1. **Create and Print an Array**  
+   - Create an array of your 5 favorite fruits and print the array with its length.
+
+2. **Access Elements**  
+   - Print the first, middle, and last elements using indexing.
+
+3. **Modify Elements**  
+   - Replace the second item in the fruit array with `"Mango"` and print the updated array.
+
+4. **Add and Remove Elements**  
+   - Add `"Kiwi"` at the end using `.push()`  
+   - Add `"Guava"` at the start using `.unshift()`  
+   - Remove the last and first elements using `.pop()` and `.shift()`  
+   - Print the array after each operation.
+
+5. **Check Existence**  
+   - Use `.includes()` to check if `"Apple"` exists.  
+   - Use `.indexOf()` to find the index of `"Banana"`.
+
+---
+
+## ⚙️ Medium Level
+
+6. **Join and Split**  
+   - Use `.join(", ")` to convert the array to a string.  
+   - Convert it back to an array using `.split(", ")`.
+
+7. **Slice an Array**  
+   - Use `.slice()` to extract the first 3 elements.  
+   - Use `.slice(-2)` to extract the last 2 elements.
+
+8. **Splice an Array**  
+   - Use `.splice()` to remove 2 elements from index 0.  
+   - Insert `"Peach"` and `"Melon"` at index 2.
+
+9. **Concat Arrays**  
+   - Combine two arrays using `.concat()`.  
+   - Combine again using spread operator `[...arr1, ...arr2]`.
+
+---
+
+## 🔶 Difficult Level
+
+10. **Filter Numbers**  
+   - Create an array of numbers from 1 to 20.  
+   - Use `.filter()` to create a new array with only even numbers.
+
+11. **Transform Array**  
+   - Use `.map()` to square each number.
+
+12. **Sum of Elements**  
+   - Use `.reduce()` to calculate the sum of all elements.
+
+13. **Sort and Reverse**  
+   - Sort the array using `.sort()`.  
+   - Reverse the array using `.reverse()`.
+
+14. **Unique Values**  
+   - Combine two arrays with duplicate values.  
+   - Remove duplicates using Set and spread operator.
+
