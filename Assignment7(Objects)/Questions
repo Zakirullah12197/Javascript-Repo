@@ -1,0 +1,12 @@
+# 📌 JavaScript Object Assignment Questions
+
+1. Create an object `person` with properties: `name`, `age`, and `city`.
+2. Access the `name` property using dot notation.
+3. Access the `city` property using bracket notation.
+4. Add a new property `isStudent` dynamically using bracket notation.
+5. Delete the `age` property from the object.
+6. Use a `Symbol` as a key in the object with any secret value.
+7. Display all properties including the symbol key (`Object.getOwnPropertySymbols()`).
+8. Create a nested `address` object inside `person` with `street` and `zipcode`.
+9. Write a function to log all key-value pairs (recursively).
+10. Loop through the object and print all values (excluding symbols).
