@@ -1,0 +1,117 @@
+**JavaScript Objects & Singleton Practice Assignment**
+
+1. Create an empty object `book` and add the properties:
+
+   * `title` → `"JavaScript Mastery"`
+   * `author` → `"John Doe"`
+   * `isPublished` → `true`
+     Print the object.
+
+2. Create an object `student` with:
+
+   ```
+   {
+       name: "Ali",
+       details: {
+           personal: {
+               age: 20,
+               city: "Lahore"
+           }
+       }
+   }
+   ```
+
+   Print only the student’s `city` using dot notation.
+
+3. Given:
+
+   ```
+   const objA = { a: 1, b: 2 };
+   const objB = { b: 3, c: 4 };
+   const objC = { d: 5 };
+   ```
+
+   Merge them into a new object `merged` without modifying `objA` using `Object.assign()`. Print the result.
+
+4. Repeat Question 3 but use the spread operator (`...`) instead of `Object.assign()`.
+
+5. Create an array `products` with 3 objects, each having `id`, `name`, and `price`. Print the `name` of the second product in the array.
+
+6. Using:
+
+   ```
+   const car = { brand: "Toyota", model: "Corolla", year: 2020 };
+   ```
+
+   Print all keys using `Object.keys()`, all values using `Object.values()`, and all key-value pairs using `Object.entries()`.
+
+7. Using the `car` object from Question 6, check if it has the property `"model"`. Print `true` or `false`.
+
+8. Using:
+
+   ```
+   const profile = {
+       username: "coder123",
+       social: {
+           twitter: "@coder",
+           instagram: "@igcoder"
+       }
+   };
+   ```
+
+   Change the Instagram username to `"@jsmaster"` and print the updated object.
+
+9. Given:
+
+   ```
+   const user = { id: 1, name: "Sara" };
+   ```
+
+   Convert the object into an array of entries (key-value pairs) and then convert it back to an object.
+
+10. Merge the following objects into one and print only the `city` from the nested `address`:
+
+    ```
+    const personalInfo = { name: "Ahmed", age: 25 };
+    const contactInfo = { email: "ahmed@example.com", phone: "12345" };
+    const addressInfo = { address: { city: "Karachi", country: "Pakistan" } };
+    ```
+
+11. Create a singleton object `appConfig` with `appName` → `"MyApp"` and `version` → `1.0`. Print the object.
+
+12. Access and print only the `appName` and `version` from `appConfig`.
+
+13. Add a property `author` → `"John Doe"` to `appConfig` and print the updated object.
+
+14. Change the `version` in `appConfig` to `2.0` and print the updated object.
+
+15. Create a singleton object `calculator` with `lastResult` → `null` and a method `add(a, b)` that stores the sum in `lastResult` and returns it. Test it by adding 5 and 3.
+
+16. Create a singleton `userProfile` with:
+
+    ```
+    {
+        username: "coder123",
+        social: {
+            twitter: "@code",
+            github: "@codehub"
+        }
+    }
+    ```
+
+    Print the GitHub username using dot notation.
+
+17. Use `Object.freeze()` on `appConfig` and try to change its `appName`. Print the object again to see if the change happened.
+
+18. Loop over the keys and values of `appConfig` using a `for...in` loop and print each key-value pair.
+
+19. Create a singleton object where the key name is stored in a variable `dynamicKey = "status"` and the value is `"active"`. Print the object.
+
+20. Create:
+
+    ```
+    const settings = { theme: "dark" };
+    const sameSettings = settings;
+    ```
+
+    Check if `settings === sameSettings` and explain why the result is `true`.
