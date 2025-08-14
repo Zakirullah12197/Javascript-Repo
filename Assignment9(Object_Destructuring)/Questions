@@ -1,0 +1,63 @@
+## **JavaScript Destructuring & Basic JSON/API Assignment – Questions**
+
+### **1. Array Destructuring**
+
+1. Create an array of 3 colors and use **array destructuring** to store them in 3 separate variables.
+2. Swap the values of two variables using **array destructuring** (no third variable allowed).
+3. Create an array of numbers and, while destructuring, **skip the second value** but store the first and third in variables. Log the stored values.
+
+---
+
+### **2. Object Destructuring**
+
+4. Create an object `car` with the properties:
+
+   * `brand` (e.g., `"Corolla"`)
+   * `model` (any value)
+   * `year` (any value)
+     Use **object destructuring** to extract these values into variables. Rename at least one variable during destructuring.
+5. Create an object `settings` with only:
+
+   * `theme` set to `"dark"`
+     Use **destructuring with default values** to extract:
+   * `theme`
+   * `fontSize` (default value `"16px"` if not present in object)
+     Log both values.
+
+---
+
+### **3. Nested Destructuring**
+
+6. Create an object:
+
+   ```js
+   const user = {
+     id: 1,
+     profile: {
+       username: "alice",
+       email: "alice@example.com"
+     }
+   }
+   ```
+
+   Use **nested object destructuring** to directly extract:
+
+   * `username`
+   * `email`
+     Log both variables.
+
+---
+
+### **4. Basic JSON Practice**
+
+7. Create an object:
+
+   ```js
+   const book = { title: "The Alchemist", author: "Paulo Coelho" };
+   ```
+
+   * Convert it into a **JSON string** using `JSON.stringify()` and log it.
+   * Convert the JSON string **back into an object** using `JSON.parse()` and log the object.
+   * Log both the JSON string and the parsed object.
+
+
