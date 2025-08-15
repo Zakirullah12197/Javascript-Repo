@@ -1,0 +1,95 @@
+🥇 1. Greet the User
+
+Create a function greetUser(name) that:
+
+Prints: Hello, <name>! Welcome back. if a name is provided.
+
+Prints: Hello, Guest! Please login. if no name is provided.
+
+➕ 2. Sum Calculator
+
+Create a function calculateSum(num1, num2) that:
+
+Returns the sum of two numbers.
+
+If any number is missing, return "Both numbers are required".
+
+💰 3. Discount Magic
+
+Create a function applyDiscount(price, discountPercent = 10) that returns the final price after applying the discount.
+
+Example:
+
+applyDiscount(100) // 90
+applyDiscount(200, 20) // 160
+
+📊 4. Average Calculator
+
+Create a function calculateAverage(...numbers) that:
+
+Accepts any number of numeric arguments.
+
+Returns the average.
+
+Example:
+
+calculateAverage(10, 20, 30) // 20
+
+📦 5. Product Printer
+
+Create a function printProductDetails(product) that accepts an object with:
+
+name (string)
+
+price (number)
+
+category (string)
+
+It should print:
+
+<name> from <category> costs $<price>.
+
+🎯 6. Direct Object Passing
+
+Call the function from Challenge 5 directly by passing the object inside the function call (without creating a variable).
+
+🛠 7. Array Tail Finder
+
+Create a function getLastElement(array) that returns the last element of the array.
+If the array is empty, return "Array is empty".
+
+🔍 8. Scope Detective
+
+Demonstrate block scope vs global scope:
+
+Global x = 50
+
+Inside a block {}, create another x = 10
+
+Print x inside and outside the block.
+
+🌀 9. Nested Function Power
+
+Create a function outerFunction with a variable message = "Outer scope".
+Inside it, create innerFunction that logs the message.
+Call innerFunction from inside outerFunction.
+
+🎭 10. Hoisting Mystery
+
+Write:
+
+A Function Declaration multiply → number × 2
+
+A Function Expression divide → number ÷ 2
+
+Call both functions before their definitions and explain the difference in comments.
+
+This style will look much richer on GitHub because:
+
+Emojis add visual scanning points
+
+Bold and italics highlight key words
+
+Code formatting (likeThis) makes function names pop
+
+Dividers (---) make it easy to read section-by-section
