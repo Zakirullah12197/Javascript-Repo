@@ -1,0 +1,87 @@
+## **JavaScript Arrow Functions & `this` Keyword Assignment**
+
+### **1. Basic Arrow Function**
+
+Create an arrow function `square(num)` that returns the square of a number and print the result for `5`.
+
+---
+
+### **2. Implicit Return**
+
+Write an arrow function `multiply` that takes two numbers and returns their product **without** using `{}` or `return`.
+
+---
+
+### **3. Returning an Object**
+
+Create an arrow function `getUser` that returns an object:
+
+```js
+{ name: "Ali", role: "Student" }
+```
+
+Make sure it works correctly when returning objects in arrow functions.
+
+---
+
+### **4. `this` in Object Method (Regular Function)**
+
+Create an object `person` with:
+
+* `name` → `"Zakir"`
+* `greet()` → regular function that logs `Hello, <name>` using `this.name`.
+
+Call `person.greet()`.
+
+---
+
+### **5. `this` in Object Method (Arrow Function)**
+
+Modify the `person` object so that `greet` is an arrow function.
+Call it again and observe the difference.
+Explain in a comment why the output changed.
+
+---
+
+### **6. `this` in a Standalone Function**
+
+Create a regular function `showThis()` that logs `this`.
+Call it directly and see what it prints in Node.js vs browser.
+
+---
+
+### **7. Arrow Function & `this` in Callback**
+
+Create an object `team`:
+
+* `members`: `["Ali", "Sara"]`
+* `showMembers()`: Use `forEach` with an arrow function to print each member with `"is part of the team"`.
+
+---
+
+### **8. Regular Function in Callback (Problem)**
+
+Change the `forEach` in **Task 7** to a **regular function** (not arrow).
+Observe what happens to `this` and explain the result in a comment.
+
+---
+
+### **9. Arrow Function with Default Parameter**
+
+Create an arrow function `greet(name = "Guest")` that prints `"Hello, <name>!"`.
+Test it by calling `greet("Hitesh")` and `greet()`.
+
+---
+
+### **10. Complex Practice — Mixing Regular & Arrow Functions**
+
+Create an object `shop`:
+
+* `items`: `["Book", "Pen", "Bag"]`
+* `price`: 100
+* `showItems()`:
+
+  1. Use a regular function method in the object.
+  2. Inside it, use `forEach` with an **arrow function** to log each item along with its price using `this.price`.
+
+
