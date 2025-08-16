@@ -1,0 +1,111 @@
+## **JavaScript IIFE Assignment – Questions (Detailed)**
+
+### **1. Basic IIFE**
+
+* Create a simple **Immediately Invoked Function Expression (IIFE)** that logs the message:
+
+  ```
+  I am an IIFE
+  ```
+* Purpose: Practice writing a basic IIFE and see it run immediately.
+
+---
+
+### **2. Parameterized IIFE**
+
+* Write an IIFE that **accepts a number as a parameter** and prints its square.
+* Call it immediately with the number `5`.
+* Example output:
+
+  ```
+  You Entered 5 and its square is 25
+  ```
+
+---
+
+### **3. Returning from IIFE**
+
+* Create an IIFE that **returns a string** `"Hello from IIFE"`.
+* Store the returned value in a variable and then **print the variable**.
+
+---
+
+### **4. IIFE with Multiple Parameters**
+
+* Write an IIFE that **accepts two numbers** as parameters.
+* The IIFE should **calculate and print their sum**.
+* Call it immediately with numbers `5` and `2`.
+* Example output:
+
+  ```
+  5 + 2 = 7
+  ```
+
+---
+
+### **5. IIFE with Arrow Function**
+
+* Convert a **normal IIFE** into an **arrow function IIFE**.
+* Example:
+
+  ```
+  (function() {
+      console.log("Normal IIFE");
+  })();
+  ```
+
+---
+
+### **6. Private Variables using IIFE**
+
+* Create an IIFE that defines a **private counter variable**.
+* Return an object from the IIFE with two methods:
+
+  1. `increment()` → increases the counter by 1
+  2. `getValue()` → returns the current value of the counter
+* Test it by incrementing twice and printing the value.
+* Purpose: Learn how to create **private variables** using closures.
+
+---
+
+### **7. IIFE inside a Loop**
+
+* Use an IIFE inside a `for` loop to **log numbers from 0 to 4 correctly**.
+* The challenge: if you use `var` in a loop without IIFE, all numbers might print the same due to closure.
+* Task: fix this problem using an IIFE.
+
+---
+
+### **8. IIFE for Module Pattern**
+
+* Use an IIFE to create a **Calculator module** with the following methods:
+
+  1. `add(a, b)` → returns the sum of two numbers
+  2. `subtract(a, b)` → returns the difference of two numbers
+* Call both methods and print the results.
+* Purpose: Learn how to create a **module pattern** in JavaScript.
+
+---
+
+### **9. Async IIFE**
+
+* Write an IIFE that **simulates asynchronous behavior** using `setTimeout`.
+* It should wait for **2 seconds** and then log:
+
+  ```
+  Async IIFE Done!
+  ```
+* Purpose: Practice running code **after a delay** inside an IIFE.
+
+---
+
+### **10. Real-World Use**
+
+* Use an IIFE to **safely execute code without polluting the global scope**.
+* Steps:
+
+  1. Define a variable `username = "Zakir"` inside the IIFE.
+  2. Print `username` inside the IIFE.
+  3. Try to log `username` outside the IIFE and observe what happens.
+* Purpose: Learn how IIFEs **keep variables private** and avoid global scope pollution.
+
