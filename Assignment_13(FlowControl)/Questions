@@ -1,0 +1,193 @@
+# 📘 JavaScript Assignment – ControlStructures,Truthy/Falsy, Nullish Coalescing, and Ternary Operators
+
+## 🚀 Questions
+
+### **1. Basic Truthy/Falsy**
+
+Create a function `checkValue(val)` that:
+
+* Prints `"Truthy"` if `val` is truthy
+* Prints `"Falsy"` if `val` is falsy
+  Test with: `0, 1, "", "hello", null, undefined, [], {}`.
+
+---
+
+### **2. Empty Array Check**
+
+Write a program that checks if an array `shoppingList` is empty or not using **truthy/falsy** and prints the message accordingly.
+
+---
+
+### **3. Empty Object Check**
+
+Write code that checks if an object `userProfile` is empty.
+👉 Hint: use `Object.keys(obj).length`.
+
+---
+
+### **4. Login Check with Truthy/Falsy**
+
+Create a variable `username`.
+
+* If `username` is a truthy value, print: `"Welcome, <username>"`.
+* Otherwise, print: `"Please log in"`.
+
+---
+
+### **5. Nullish Coalescing Basics**
+
+Write code that assigns:
+
+```js
+let discount = null ?? 10;
+```
+
+Print the result and explain why `10` is chosen.
+
+---
+
+### **6. Multiple Nullish Coalescing**
+
+Create a variable:
+
+```js
+let price = null ?? undefined ?? 250;
+```
+
+* Print the result
+* Explain which value was selected.
+
+---
+
+### **7. Default Email with Nullish Coalescing**
+
+Write a program that checks if `userEmail` is `null` or `undefined`.
+
+* If it is, assign `"guest@example.com"` as default.
+* Otherwise, keep the original email.
+  Print the result.
+
+---
+
+### **8. Ternary Basics**
+
+Create a variable `marks`.
+
+* If `marks >= 50` → print `"Pass"`
+* Else → print `"Fail"`
+  (using ternary operator).
+
+---
+
+### **9. Ice Tea Shop (Ternary)**
+
+Create a variable `iceTeaPrice = 120`.
+
+* If the price is less than or equal to 100 → `"Buy one"`
+* Otherwise → `"Too expensive!"`
+  (using ternary operator).
+
+---
+
+### **10. Combined Logic Challenge**
+
+Write a program that:
+
+* Checks if `cartItems` array is empty.
+* If empty → print `"Cart is empty"`
+* If not empty → print `"You have <count> items"`.
+* Also, set `finalPrice = totalPrice ?? 0` (using nullish coalescing).
+* If `finalPrice > 500` → `"You get free delivery"` else `"Delivery charges apply"` (using ternary).
+
+
+### **11. Temperature Check**
+
+Write a program that:
+
+* If `temperature < 0` → print `"Freezing"`
+* Else if `temperature < 20` → print `"Cold"`
+* Else if `temperature < 30` → print `"Warm"`
+* Else → print `"Hot"`.
+
+---
+
+### **12. Even or Odd**
+
+Take a number `n`.
+
+* If even → print `"Even Number"`
+* If odd → print `"Odd Number"`.
+
+---
+
+### **13. Grading System**
+
+Write code to check a `marks` variable:
+
+* `marks >= 90` → `"A Grade"`
+* `marks >= 75` → `"B Grade"`
+* `marks >= 50` → `"C Grade"`
+* Else → `"Fail"`.
+
+---
+
+### **14. Max of Three Numbers**
+
+Take three numbers `a, b, c`.
+Use `if` conditions to print which one is the **largest**.
+
+---
+
+### **15. Positive, Negative, or Zero**
+
+Take a number `num`.
+
+* If positive → `"Positive Number"`
+* If negative → `"Negative Number"`
+* If zero → `"Zero"`.
+
+---
+
+### **16. Day of Week (Switch)**
+
+Take a number `day = 3`.
+Use `switch` to print the name of the day:
+
+* `1 → Monday`, `2 → Tuesday`, `3 → Wednesday`, etc.
+
+---
+
+### **17. Month Name (Switch)**
+
+Take `month = 12`.
+Use `switch` to print the month name:
+
+* `1 → January`, … `12 → December`.
+
+---
+
+### **18. Vowel or Consonant**
+
+Take a character `letter = 'a'`.
+Use `switch` to print if it’s a `"Vowel"` (`a, e, i, o, u`) or `"Consonant"`.
+
+---
+
+### **19. Calculator (Switch)**
+
+Take two numbers `num1, num2` and an operator `+ , - , * , /`.
+Use `switch` to perform the correct operation and print the result.
+
+---
+
+### **20. Traffic Light System**
+
+Take a variable `signal`.
+
+* If `"red"` → print `"Stop"`
+* If `"yellow"` → print `"Get Ready"`
+* If `"green"` → print `"Go"`
+* Otherwise → print `"Invalid signal"`.
+
+
+
